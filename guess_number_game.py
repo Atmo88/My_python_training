@@ -5,7 +5,7 @@
 #
 # Author: Atmo88
 
-\import random
+import random
 
 toGuess = random.randint(1, 9) # initial no. to be guessed
 noOfGuesses = 0
