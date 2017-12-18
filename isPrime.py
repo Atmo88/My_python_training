@@ -1,4 +1,7 @@
 # input a number and the code tells you whether it's prime or not
+# enter any of these "q", "quit", "exit", "cancel" to cancel the program
+#
+# Author: Atmo88
 
 def isPrime(num):
   if num == 1:  # 1 is not prime by definition
