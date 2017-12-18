@@ -1,4 +1,11 @@
-import random
+# in this code there's a random number between 1 and 9
+# your task is to guess the number, with each guess you get a hint whether you are over, under or right dead on the money
+# type in "exit" to quit the game and you get your total score of correct hits
+# enjoy!
+#
+# Author: Atmo88
+
+\import random
 
 toGuess = random.randint(1, 9) # initial no. to be guessed
 noOfGuesses = 0
