@@ -3,6 +3,7 @@
 # It is calculated from the top according to member's row (index from 0, descending) and position (index from 0, left to right)
 #
 # You can see the formula in this repo, name of the img is same as this script's
+# In the formula "n" is the index of row (desc from top), "p" is the index of position on that row 
 #
 # Author: Atmo88
 
