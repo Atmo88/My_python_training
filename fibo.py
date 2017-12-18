@@ -1,4 +1,4 @@
-# Prints out the desired amount of member from the Fibonacci sequence
+# Prints out the desired amount of members from the Fibonacci sequence
 
 a = 0
 b = 1
