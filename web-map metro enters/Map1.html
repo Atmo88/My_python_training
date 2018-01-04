@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS = false; L_NO_TOUCH = false; L_DISABLE_3D = false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css" />
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css" />
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <style> #map_b1f0c0acf13a42b899a855184caf9a65 {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_b1f0c0acf13a42b899a855184caf9a65" ></div>
+        
+</body>
+<script>    
+    
+
+            
+                var bounds = null;
+            
+
+            var map_b1f0c0acf13a42b899a855184caf9a65 = L.map(
+                                  'map_b1f0c0acf13a42b899a855184caf9a65',
+                                  {center: [25,10],
+                                  zoom: 3,
+                                  maxBounds: bounds,
+                                  layers: [],
+                                  worldCopyJump: false,
+                                  crs: L.CRS.EPSG3857
+                                 });
+            
+        
+    
+            var tile_layer_9a55540c04984b37978339119b6e8f2b = L.tileLayer(
+                'https://{s}.tiles.mapbox.com/v3/mapbox.world-bright/{z}/{x}/{y}.png',
+                {
+  "attribution": null,
+  "detectRetina": false,
+  "maxZoom": 18,
+  "minZoom": 1,
+  "noWrap": false,
+  "subdomains": "abc"
+}
+                ).addTo(map_b1f0c0acf13a42b899a855184caf9a65);
+        
+    
+            var feature_group_1fdbad8f2aad4cfabda65b9dfb9e0ecf = L.featureGroup(
+                ).addTo(map_b1f0c0acf13a42b899a855184caf9a65);
+        
+    
+            var circle_marker_210b077af50b4aa0972a082b161aa478 = L.circleMarker(
+                [-736996.960009169,-1046003.98003788],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "yellow",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1fdbad8f2aad4cfabda65b9dfb9e0ecf);
+            
+    
+            var popup_53837a7bd5cd4906a7639dbe0929d072 = L.popup({maxWidth: '300'});
+
+            
+                var html_4e4af5017f88447793cbde845f404e10 = $('<div id="html_4e4af5017f88447793cbde845f404e10" style="width: 100.0%; height: 100.0%;">BUS sm. H. Měcholupy, Petrovice, Uhříněves, Vršovice</div>')[0];
+                popup_53837a7bd5cd4906a7639dbe0929d072.setContent(html_4e4af5017f88447793cbde845f404e10);
+            
+
+            circle_marker_210b077af50b4aa0972a082b161aa478.bindPopup(popup_53837a7bd5cd4906a7639dbe0929d072);
+
+            
+        
+    
+            var circle_marker_715bc7380de44222be520d73fd489120 = L.circleMarker(
+                [-736962.030014921,-1046027.45003401],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "yellow",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1fdbad8f2aad4cfabda65b9dfb9e0ecf);
+            
+    
+            var popup_8354993e8c7846998ec6106e37107832 = L.popup({maxWidth: '300'});
+
+            
+                var html_9ac42d6d166545419abda0684229d6be = $('<div id="html_9ac42d6d166545419abda0684229d6be" style="width: 100.0%; height: 100.0%;">ul. Vyžlovská</div>')[0];
+                popup_8354993e8c7846998ec6106e37107832.setContent(html_9ac42d6d166545419abda0684229d6be);
+            
+
+            circle_marker_715bc7380de44222be520d73fd489120.bindPopup(popup_8354993e8c7846998ec6106e37107832);
+
+            
+        
+    
+            var circle_marker_c0338b5620424577bf785d3e274875de = L.circleMarker(
+                [-736941.670018271,-1045995.9300392],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "yellow",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1fdbad8f2aad4cfabda65b9dfb9e0ecf);
+            
+    
+            var popup_05974faee97549e389e87bfd4d4b2d16 = L.popup({maxWidth: '300'});
+
+            
+                var html_036afb986aa142ecbf445dcc7da53cb6 = $('<div id="html_036afb986aa142ecbf445dcc7da53cb6" style="width: 100.0%; height: 100.0%;">BUS sm. Kobylisy, Strašnická</div>')[0];
+                popup_05974faee97549e389e87bfd4d4b2d16.setContent(html_036afb986aa142ecbf445dcc7da53cb6);
+            
+
+            circle_marker_c0338b5620424577bf785d3e274875de.bindPopup(popup_05974faee97549e389e87bfd4d4b2d16);
+
+            
+        
+    
+            var circle_marker_057455110abd4a3095d80df35e85ac85 = L.circleMarker(
+                [-737004.370007951,-1045940.60004831],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "yellow",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1fdbad8f2aad4cfabda65b9dfb9e0ecf);
+            
+    
+            var popup_9ee5f119f74a4e78bde738e35da15569 = L.popup({maxWidth: '300'});
+
+            
+                var html_98e37b5c6d83405093f256fe1467ab62 = $('<div id="html_98e37b5c6d83405093f256fe1467ab62" style="width: 100.0%; height: 100.0%;">Výtah k BUS sm. Jižní Město, BB podchodem Kobylisy</div>')[0];
+                popup_9ee5f119f74a4e78bde738e35da15569.setContent(html_98e37b5c6d83405093f256fe1467ab62);
+            
+
+            circle_marker_057455110abd4a3095d80df35e85ac85.bindPopup(popup_9ee5f119f74a4e78bde738e35da15569);
+
+            
+        
+    
+            var circle_marker_68de525fe6e246f1ab28c61d115cda5e = L.circleMarker(
+                [-738633.490039751,-1041683.07004922],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "yellow",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1fdbad8f2aad4cfabda65b9dfb9e0ecf);
+            
+    
+            var popup_1a655ba81cf54ab1b4c61aeb5497ba9c = L.popup({maxWidth: '300'});
+
+            
+                var html_7d396334858e45339723815e81034617 = $('<div id="html_7d396334858e45339723815e81034617" style="width: 100.0%; height: 100.0%;">ul. Na Žertvách, TRAM sm. Vysočany, Florenc</div>')[0];
+                popup_1a655ba81cf54ab1b4c61aeb5497ba9c.setContent(html_7d396334858e45339723815e81034617);
+            
+
+            circle_marker_68de525fe6e246f1ab28c61d115cda5e.bindPopup(popup_1a655ba81cf54ab1b4c61aeb5497ba9c);
+
+            
+        
+    
+            var circle_marker_fc02c72f88a5401897d9beda7c89edf7 = L.circleMarker(
+                [-732617.410030168,-1042212.98996198],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "yellow",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1fdbad8f2aad4cfabda65b9dfb9e0ecf);
+            
+    
+            var popup_5f495f508fb242cc8dbf56afef8d6246 = L.popup({maxWidth: '300'});
+
+            
+                var html_2dc08fde9c81401593ca42beffe2186a = $('<div id="html_2dc08fde9c81401593ca42beffe2186a" style="width: 100.0%; height: 100.0%;">Chlumecká ul. ze sm. Černý Most, podchod</div>')[0];
+                popup_5f495f508fb242cc8dbf56afef8d6246.setContent(html_2dc08fde9c81401593ca42beffe2186a);
+            
+
+            circle_marker_fc02c72f88a5401897d9beda7c89edf7.bindPopup(popup_5f495f508fb242cc8dbf56afef8d6246);
+
+            
+        
+    
+            var circle_marker_ee924a09a0d84422a83d0a545ee62227 = L.circleMarker(
+                [-732678.140020169,-1042217.21996129],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "yellow",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1fdbad8f2aad4cfabda65b9dfb9e0ecf);
+            
+    
+            var popup_9dd55b2616474393b46dd20b218796d1 = L.popup({maxWidth: '300'});
+
+            
+                var html_72aac4f1ab8c4610990224fb0e892fa3 = $('<div id="html_72aac4f1ab8c4610990224fb0e892fa3" style="width: 100.0%; height: 100.0%;">Clumecká ul. ze sm. Černý Most</div>')[0];
+                popup_9dd55b2616474393b46dd20b218796d1.setContent(html_72aac4f1ab8c4610990224fb0e892fa3);
+            
+
+            circle_marker_ee924a09a0d84422a83d0a545ee62227.bindPopup(popup_9dd55b2616474393b46dd20b218796d1);
+
+            
+        
+    
+            var circle_marker_27db682ba5a547c3995591f54a65bbcd = L.circleMarker(
+                [-731482.770016961,-1042170.42996899],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "yellow",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1fdbad8f2aad4cfabda65b9dfb9e0ecf);
+            
+    
+            var popup_ed3bb863cab04fd886ee5b02b88014d3 = L.popup({maxWidth: '300'});
+
+            
+                var html_52aee0223bef4c14a262e4a1d78ed44f = $('<div id="html_52aee0223bef4c14a262e4a1d78ed44f" style="width: 100.0%; height: 100.0%;">linky PID, příměstská doprava</div>')[0];
+                popup_ed3bb863cab04fd886ee5b02b88014d3.setContent(html_52aee0223bef4c14a262e4a1d78ed44f);
+            
+
+            circle_marker_27db682ba5a547c3995591f54a65bbcd.bindPopup(popup_ed3bb863cab04fd886ee5b02b88014d3);
+
+            
+        
+    
+            var circle_marker_4f63c0a0571043cca5298ea354cff2ee = L.circleMarker(
+                [-731401.530030336,-1042162.72997026],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "yellow",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1fdbad8f2aad4cfabda65b9dfb9e0ecf);
+            
+    
+            var popup_72d16a12941348c7b7296cdaffaa856a = L.popup({maxWidth: '300'});
+
+            
+                var html_e32ae9e4c1004a60ba5075fa163e0779 = $('<div id="html_e32ae9e4c1004a60ba5075fa163e0779" style="width: 100.0%; height: 100.0%;">sm. sídliště přes rampu</div>')[0];
+                popup_72d16a12941348c7b7296cdaffaa856a.setContent(html_e32ae9e4c1004a60ba5075fa163e0779);
+            
+
+            circle_marker_4f63c0a0571043cca5298ea354cff2ee.bindPopup(popup_72d16a12941348c7b7296cdaffaa856a);
+
+            
+        
+    
+            var circle_marker_a9ca9a8fb7b44ba6a6a5ba428f06d1e6 = L.circleMarker(
+                [-731401.530030336,-1042162.72997026],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "yellow",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1fdbad8f2aad4cfabda65b9dfb9e0ecf);
+            
+    
+            var popup_72a0873005164c4fb3bd16b276f705e9 = L.popup({maxWidth: '300'});
+
+            
+                var html_b9403c4062884714963eb8bcb4afe36a = $('<div id="html_b9403c4062884714963eb8bcb4afe36a" style="width: 100.0%; height: 100.0%;">výtah sm. sídliště přes rampu</div>')[0];
+                popup_72a0873005164c4fb3bd16b276f705e9.setContent(html_b9403c4062884714963eb8bcb4afe36a);
+            
+
+            circle_marker_a9ca9a8fb7b44ba6a6a5ba428f06d1e6.bindPopup(popup_72a0873005164c4fb3bd16b276f705e9);
+
+            
+        
+    
+            var circle_marker_9c03f9ab137d416795d540d3f6954450 = L.circleMarker(
+                [-731405.250029724,-1042131.04997547],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "yellow",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1fdbad8f2aad4cfabda65b9dfb9e0ecf);
+            
+    
+            var popup_c1d00ad64b614299952e17a08f34a76e = L.popup({maxWidth: '300'});
+
+            
+                var html_7bb96b4ff5ee40138c45f89609c9c39a = $('<div id="html_7bb96b4ff5ee40138c45f89609c9c39a" style="width: 100.0%; height: 100.0%;">sm. obchodní zóna přes rampu</div>')[0];
+                popup_c1d00ad64b614299952e17a08f34a76e.setContent(html_7bb96b4ff5ee40138c45f89609c9c39a);
+            
+
+            circle_marker_9c03f9ab137d416795d540d3f6954450.bindPopup(popup_c1d00ad64b614299952e17a08f34a76e);
+
+            
+        
+    
+            var circle_marker_8ca8d18a076544988151515360595642 = L.circleMarker(
+                [-731405.250029724,-1042131.04997547],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "yellow",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1fdbad8f2aad4cfabda65b9dfb9e0ecf);
+            
+    
+            var popup_26262893d04643b88538f07e62438a40 = L.popup({maxWidth: '300'});
+
+            
+                var html_a9388116679f47a3a4358502e597608a = $('<div id="html_a9388116679f47a3a4358502e597608a" style="width: 100.0%; height: 100.0%;">výtah sm. obchodní zóna přes rampu</div>')[0];
+                popup_26262893d04643b88538f07e62438a40.setContent(html_a9388116679f47a3a4358502e597608a);
+            
+
+            circle_marker_8ca8d18a076544988151515360595642.bindPopup(popup_26262893d04643b88538f07e62438a40);
+
+            
+        
+    
+            var circle_marker_a71890f3a92e41ce8158d70c094fc497 = L.circleMarker(
+                [-731451.370022129,-1042131.03997548],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "yellow",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1fdbad8f2aad4cfabda65b9dfb9e0ecf);
+            
+    
+            var popup_52ec4752c6744fbdaf58e5b2dd01aae2 = L.popup({maxWidth: '300'});
+
+            
+                var html_7643bf9218ad4f35be82f88efd884cf8 = $('<div id="html_7643bf9218ad4f35be82f88efd884cf8" style="width: 100.0%; height: 100.0%;">ul. Chlumecká, nástup střed sm. ZL, příjezd BUS</div>')[0];
+                popup_52ec4752c6744fbdaf58e5b2dd01aae2.setContent(html_7643bf9218ad4f35be82f88efd884cf8);
+            
+
+            circle_marker_a71890f3a92e41ce8158d70c094fc497.bindPopup(popup_52ec4752c6744fbdaf58e5b2dd01aae2);
+
+            
+        
+    
+            var circle_marker_f4e2fd64a475481ab5daf294536a787b = L.circleMarker(
+                [-731497.900014471,-1042134.07997498],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "yellow",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1fdbad8f2aad4cfabda65b9dfb9e0ecf);
+            
+    
+            var popup_ef5b25e923634be092f307ebb7db5e95 = L.popup({maxWidth: '300'});
+
+            
+                var html_9a3a38d84a45400d8dd9c09a3cb6f07f = $('<div id="html_9a3a38d84a45400d8dd9c09a3cb6f07f" style="width: 100.0%; height: 100.0%;">ul. Chlumecká, nástup vpředu sm. ZL, příjezd BUS</div>')[0];
+                popup_ef5b25e923634be092f307ebb7db5e95.setContent(html_9a3a38d84a45400d8dd9c09a3cb6f07f);
+            
+
+            circle_marker_f4e2fd64a475481ab5daf294536a787b.bindPopup(popup_ef5b25e923634be092f307ebb7db5e95);
+
+            
+        
+    
+            var circle_marker_770977a8a7fc4e8e9e8f9743cd442573 = L.circleMarker(
+                [-731425.360026412,-1042131.43997541],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "yellow",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1fdbad8f2aad4cfabda65b9dfb9e0ecf);
+            
+    
+            var popup_fe9f557b5d9a4407ab8da1b75dfd8a97 = L.popup({maxWidth: '300'});
+
+            
+                var html_b4760fa34ad747f18ee15c17273ff5da = $('<div id="html_b4760fa34ad747f18ee15c17273ff5da" style="width: 100.0%; height: 100.0%;">ul. Chlumecká, nástup vzadu sm. ZL, BUS invalidní</div>')[0];
+                popup_fe9f557b5d9a4407ab8da1b75dfd8a97.setContent(html_b4760fa34ad747f18ee15c17273ff5da);
+            
+
+            circle_marker_770977a8a7fc4e8e9e8f9743cd442573.bindPopup(popup_fe9f557b5d9a4407ab8da1b75dfd8a97);
+
+            
+        
+    
+            var circle_marker_30c942c8d2424ae2b5e6fcf76f0eb812 = L.circleMarker(
+                [-739204.460045751,-1044476.84998929],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "yellow",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1fdbad8f2aad4cfabda65b9dfb9e0ecf);
+            
+    
+            var popup_a22915c74b0544eabd50d9e71f20261b = L.popup({maxWidth: '300'});
+
+            
+                var html_9b6ac44fbcb14b60a3d5489102991c0c = $('<div id="html_9b6ac44fbcb14b60a3d5489102991c0c" style="width: 100.0%; height: 100.0%;">Židovský hřbitov, ul. Izraelská, J. Želivského, BUS výstupní</div>')[0];
+                popup_a22915c74b0544eabd50d9e71f20261b.setContent(html_9b6ac44fbcb14b60a3d5489102991c0c);
+            
+
+            circle_marker_30c942c8d2424ae2b5e6fcf76f0eb812.bindPopup(popup_a22915c74b0544eabd50d9e71f20261b);
+
+            
+        
+    
+            var circle_marker_38bf325659b7430f87888d0622c79203 = L.circleMarker(
+                [-742182.809955433,-1043865.56998992],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "yellow",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1fdbad8f2aad4cfabda65b9dfb9e0ecf);
+            
+    
+            var popup_4275fed39e6d4e2f9074bda8151b46f0 = L.popup({maxWidth: '300'});
+
+            
+                var html_2fe700b4ebe84ca7a1aed1bcbdd4dd88 = $('<div id="html_2fe700b4ebe84ca7a1aed1bcbdd4dd88" style="width: 100.0%; height: 100.0%;">Výtah Wilsonova ul., BUS noční</div>')[0];
+                popup_4275fed39e6d4e2f9074bda8151b46f0.setContent(html_2fe700b4ebe84ca7a1aed1bcbdd4dd88);
+            
+
+            circle_marker_38bf325659b7430f87888d0622c79203.bindPopup(popup_4275fed39e6d4e2f9074bda8151b46f0);
+
+            
+        
+    
+            var circle_marker_102a395bae6d4f6e82eeb8d0dfec7c87 = L.circleMarker(
+                [-744065.910045419,-1045895.44995575],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "yellow",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1fdbad8f2aad4cfabda65b9dfb9e0ecf);
+            
+    
+            var popup_e6b5cdb065484f64941f5c1264ab85e7 = L.popup({maxWidth: '300'});
+
+            
+                var html_977a2025b6374a3dbeab4b8f5f09ec18 = $('<div id="html_977a2025b6374a3dbeab4b8f5f09ec18" style="width: 100.0%; height: 100.0%;">ul. Nádražní, BUS sm. Lhotka, Modřany, Zbraslav, Radotín, Chuchle</div>')[0];
+                popup_e6b5cdb065484f64941f5c1264ab85e7.setContent(html_977a2025b6374a3dbeab4b8f5f09ec18);
+            
+
+            circle_marker_102a395bae6d4f6e82eeb8d0dfec7c87.bindPopup(popup_e6b5cdb065484f64941f5c1264ab85e7);
+
+            
+        
+    
+            var circle_marker_16ca6f52e7ed4c1bb315666934dfd717 = L.circleMarker(
+                [-744098.560040046,-1045884.70995751],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "yellow",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1fdbad8f2aad4cfabda65b9dfb9e0ecf);
+            
+    
+            var popup_61efa2c487fb4c2d89019dec2d52d831 = L.popup({maxWidth: '300'});
+
+            
+                var html_3a27d04d38f3495caf8ba812265c168a = $('<div id="html_3a27d04d38f3495caf8ba812265c168a" style="width: 100.0%; height: 100.0%;">BUS - přes odstavnou plochu, BUS výstupní, odstavná plocha BUS</div>')[0];
+                popup_61efa2c487fb4c2d89019dec2d52d831.setContent(html_3a27d04d38f3495caf8ba812265c168a);
+            
+
+            circle_marker_16ca6f52e7ed4c1bb315666934dfd717.bindPopup(popup_61efa2c487fb4c2d89019dec2d52d831);
+
+            
+        
+    
+            var circle_marker_2e0b5a511f1c4297b66e3e83ec469759 = L.circleMarker(
+                [-744098.000040136,-1045866.07996058],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "yellow",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1fdbad8f2aad4cfabda65b9dfb9e0ecf);
+            
+    
+            var popup_4a346358450440f7a9b17c6ee15fe1c2 = L.popup({maxWidth: '300'});
+
+            
+                var html_2a9f463ee2de4529b35358c121cbff38 = $('<div id="html_2a9f463ee2de4529b35358c121cbff38" style="width: 100.0%; height: 100.0%;">ČD - 1. a 2. nástupiště</div>')[0];
+                popup_4a346358450440f7a9b17c6ee15fe1c2.setContent(html_2a9f463ee2de4529b35358c121cbff38);
+            
+
+            circle_marker_2e0b5a511f1c4297b66e3e83ec469759.bindPopup(popup_4a346358450440f7a9b17c6ee15fe1c2);
+
+            
+        
+    
+            var layer_control_daacd86d144746c799ca2639f534eaef = {
+                base_layers : { "mapboxbright" : tile_layer_9a55540c04984b37978339119b6e8f2b, },
+                overlays : { "Station exits" : feature_group_1fdbad8f2aad4cfabda65b9dfb9e0ecf, }
+                };
+            L.control.layers(
+                layer_control_daacd86d144746c799ca2639f534eaef.base_layers,
+                layer_control_daacd86d144746c799ca2639f534eaef.overlays,
+                {position: 'topright',
+                 collapsed: true,
+                 autoZIndex: true
+                }).addTo(map_b1f0c0acf13a42b899a855184caf9a65);
+        
+</script>
